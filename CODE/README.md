@@ -40,6 +40,7 @@ A deep metric learning based method for predicting miRNA-disease associations
     - kethop_kfold_va_dis_k_2_loai.py: Train the final model.
 ## Usage
   * Download code and data.
+  * Because of the big size of dataset, data in github is uploaded for using one repeat time running. You can edit code to run in one repeat time. For further data, please feel free send email to npxquynh@hueuni.edu.vn.
   * How to run:
      - For 5-fold-CV in HMDD2 or HMDD3:
       1. Choose dataset and type of evaluation. Default: ```HMDD3``` and ```kfold```. If you want to change parameters, edit in the file ```params.py```. 
