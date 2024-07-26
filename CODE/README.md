@@ -41,6 +41,7 @@ A deep metric learning based method for predicting miRNA-disease associations
 ## Usage
   * Download code and data.
   * Because of the big size of dataset, data in github is uploaded for using one repeat time running. You can edit code to run in one repeat time. For further data, please feel free send email to npxquynh@hueuni.edu.vn.
+  * If ```OUT*``` directory does not exist, unzip ```OUT.rar```
   * How to run:
      - For 5-fold-CV in HMDD2 or HMDD3:
       1. Choose dataset and type of evaluation. Default: ```HMDD3``` and ```kfold```. If you want to change parameters, edit in the file ```params.py```. 
